@@ -5,3 +5,21 @@ body {
     color: rgb(0, 0, 0);
 
 }
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    color: rgb(9, 6, 170); /* Color para enlaces no visitados */
+}
+
+a:visited {
+    color: #666; /* Un color más tenue para enlaces visitados */
+}
+
+a:hover {
+    color: #007bff; /* Color que cambia al pasar el mouse */
+    text-decoration: underline; /* Añade un subrayado al pasar el mouse */
+}
