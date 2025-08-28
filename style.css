@@ -1,4 +1,49 @@
+/* Solo como parte de las tareas del curso
+{
+    padding: 0;
+    margin: 0;
+}*/
 
+/*reset css real, Reset Básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Se asegura de que el padding y el border se incluyan en el tamaño total */
+}
+
+/* Normalización de elementos clave */
+body {
+  font-family: Arial, sans-serif; /* Puedes cambiar la fuente a tu gusto */
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1.5rem; /* Espaciado uniforme para los títulos */
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ol, ul {
+  list-style: none; /* Elimina los puntos o números de la lista */
+}
+
+a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: inherit; /* Hereda el color del texto del padre */
+}
+
+img {
+  max-width: 100%; /* Las imágenes no se desbordan de su contenedor */
+  display: block;
+}
+
+/* Reset para elementos semánticos */
+header, main, nav, section, footer {
+  display: block; /* Asegura que estos elementos se comporten como bloques */
+}
 body {
 
     background-color: rgba(247, 209, 43, 0.829);
