@@ -44,6 +44,30 @@ img {
 header, main, nav, section, footer {
   display: block; /* Asegura que estos elementos se comporten como bloques */
 }
+/* Estilo para los párrafos de la sección principal */
+.parrafo-principal {
+  margin: 10px 20px; /* Margen superior e inferior de 10px, y 20px a los lados */
+  padding: 15px; /* Relleno de 15px en todos los lados */
+  border: 1px solid #ccc; /* Borde sólido de 1px de color gris claro */
+  border-radius: 5px; /* Bordes ligeramente redondeados */
+  background-color: #f9f9f9; /* Color de fondo para que se destaque */
+}
+
+/* Estilo para los párrafos del resto del blog */
+.parrafo-blog {
+  margin-top: 20px; /* Margen superior de 20px para separarlos bien */
+  margin-bottom: 20px;
+  padding: 0 10px; /* Relleno a los lados de 10px sin relleno arriba o abajo */
+  line-height: 1.8; /* Aumenta el espaciado entre líneas para mejor lectura */
+}
+
+/* Estilo para párrafos que necesiten un efecto de resaltado */
+.parrafo-resaltado {
+  margin: 25px auto; /* Centra el párrafo y le da un buen margen */
+  padding: 20px;
+  border: 2px dashed #007bff; /* Borde de línea punteada de color azul */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil para un efecto 3D */
+}
 body {
 
     background-color: rgba(247, 209, 43, 0.829);
