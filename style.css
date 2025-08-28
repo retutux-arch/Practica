@@ -1,7 +1,7 @@
 
 body {
 
-    background-color: rgba(231, 158, 22, 0.918);
+    background-color: rgba(247, 209, 43, 0.829);
     color: rgb(0, 0, 0);
 
 }
@@ -30,4 +30,7 @@ color: #a524f0fd;
 
 .titulo-blog {
     color: #0666e4;
+}
+.noticias-urgentes{
+    color: red;
 }
