@@ -1,5 +1,5 @@
 /* Solo como parte de las tareas del curso
-{
+*{
     padding: 0;
     margin: 0;
 }*/
@@ -62,12 +62,7 @@ header, main, nav, section, footer {
 }
 
 /* Estilo para párrafos que necesiten un efecto de resaltado */
-.parrafo-resaltado {
-  margin: 25px auto; /* Centra el párrafo y le da un buen margen */
-  padding: 20px;
-  border: 2px dashed #007bff; /* Borde de línea punteada de color azul */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil para un efecto 3D */
-}
+
 body {
 
     background-color: rgba(247, 209, 43, 0.829);
@@ -92,9 +87,14 @@ a:hover {
     color: #007bff; /* Color que cambia al pasar el mouse */
     text-decoration: underline; /* Añade un subrayado al pasar el mouse */
 }
-
-.texto-destacado {
-color: #a524f0fd;
+.texto__presentacion {
+    margin: 25px auto; /* Centra el párrafo y le da un buen margen */
+    padding: 10px;
+    border: 2px solid #007bff; /* Borde de línea punteada de color azul */
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil para un efecto 3D */
+    text-align: justify;
+    color: #a524f0fd;
 }
 
 .titulo-blog {
